@@ -12,7 +12,7 @@ The aim is a very basic site map generator using only native Python things. I do
 TODO:
 
 OO, unittested parallel processing 
-- http://stackoverflow.com/questions/20887555/dead-simple-example-of-using-multiprocessing-queue-pool-and-locking - 2nd answer has a good design patter
+- http://stackoverflow.com/questions/20887555/dead-simple-example-of-using-multiprocessing-queue-pool-and-locking - 2nd answer has a good design pattern
 - also, ideas here https://pymotw.com/2/multiprocessing/communication.html
 Move from urllib3 to urllib wherever I use it (urllib3 isn't inbuilt to python)
 There are more cases than just 'text/html' - also 'text/html; charset=utf-8' for example."
