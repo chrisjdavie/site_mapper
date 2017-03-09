@@ -1,0 +1,11 @@
+
+Run from command line as
+
+python3 -m run <domain> <num_processes>
+
+<domain> is the domain to be mapped, <num_processes> is the number of processes to use.
+Defaults to 2. More allows parallel requests, the most expensive part of the code if
+run in serial. Must be greater than 2.
+
+If I had more time, I would unit test the parallelism control logic, but I've never
+written unit tests for those, and I think I can see how.
