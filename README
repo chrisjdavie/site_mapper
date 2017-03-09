@@ -7,5 +7,13 @@ python3 -m run <domain> <num_processes>
 Defaults to 2. More allows parallel requests, the most expensive part of the code if
 run in serial. Must be greater than 2.
 
-If I had more time, I would unit test the parallelism control logic, but I've never
-written unit tests for those, and I think I can see how.
+The aim is a very basic site map generator using only native Python things. I don't have much experience of requests or OO in paralell processing, unittested environments. Only hacking during my PhD really.
+
+TODO:
+
+OO, unittested parallel processing 
+- http://stackoverflow.com/questions/20887555/dead-simple-example-of-using-multiprocessing-queue-pool-and-locking - 2nd answer has a good design patter
+- also, ideas here https://pymotw.com/2/multiprocessing/communication.html
+Move from urllib3 to urllib wherever I use it (urllib3 isn't inbuilt to python)
+There are more cases than just 'text/html' - also 'text/html; charset=utf-8' for example."
+Write a better integration test on my github.io site
